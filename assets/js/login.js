@@ -68,7 +68,7 @@ $(function(){
         e.preventDefault();
         $.ajax({
             url:'/api/login',
-            method:'post',
+            method:'POST',
             data:$(this).serialize(),
             success:function(res){
                  if(res.status !== 0){
@@ -76,6 +76,7 @@ $(function(){
                     
                 }
                 layer.msg('登录成功');
+                localStorage.setItem('token', res.token)
                //跳转到后台主页
                location.href = '/index.html';
             }

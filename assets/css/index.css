@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iconfont{
+    margin-right: 8px;
+}
+.layui-icon{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.user{
+    width: 200px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    border: 1px solid #282b33;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    font-size: 12px;
+    user-select: none;
+}
+.avatar{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    /* 相对定位是依据自身移动的 */
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+.layui-nav-img{
+   
+    height: 40px ;
+    width: 40px ;
+}
